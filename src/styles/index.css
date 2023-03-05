@@ -1,0 +1,170 @@
+/* Apply box-sizing to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Add some default margin and padding to the body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a default font family */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Set the background color for the entire app */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Set the max-width for the app content */
+.app-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style the links in the navbar */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links li:last-child {
+  margin-right: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  color: #0066cc;
+}
+
+/* Style the sidebar */
+.sidebar {
+  background-color: #fff;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-header {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.sidebar-menu a:hover {
+  background-color: #ddd;
+}
+
+/* Style the table */
+.custom-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.custom-table thead th {
+  background-color: #eee;
+  font-weight: bold;
+  text-align: left;
+}
+
+.custom-table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Style the compare modal */
+.compare-modal {
+  width: 600px;
+}
+
+.compare-modal .modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.compare-modal .modal-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.compare-modal .modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.compare-modal .modal-footer button {
+  margin-left: 10px;
+}
+
+/* Style the compare table */
+.compare-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.compare-table thead th {
+  background-color: #eee;
+  font-weight: bold;
+  text-align: left;
+}
+
+.compare-table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.compare-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Highlight compared rows in the product details table */
+.highlighted-row {
+  background-color: #fff6cc;
+}

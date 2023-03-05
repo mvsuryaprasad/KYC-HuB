@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #272727;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar__profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.navbar__profile-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar__profile-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
